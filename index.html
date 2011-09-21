@@ -5,19 +5,26 @@
 <meta charset="utf-8" />
 <link href="favicon.ico" rel="shortcut icon" />
 <title>구름 입력기</title>
-<!-- Add the following three tags inside head -->
+<!-- Google +1 tags -->
 <meta itemprop="name" content="구름 입력기">
 <meta itemprop="description" content="구름 입력기는 맥 OS X를 위한 새로운 한글 입력기입니다.">
 <meta itemprop="image" content="http://gureum.org/logo.svg">
+<!-- facebook like tags -->
+<meta property="og:title" content="gureum" />
+<meta property="og:type" content="product" />
+<meta property="og:url" content="http://gureum.org" />
+<meta property="og:image" content="http://gureum.org/logo.svg" />
+<meta property="og:site_name" content="구름 입력기" />
 <style>
 a:link, a:visited, a:active { text-decoration:none; color:black }
 a:hover { text-decoration:underline; color:gray }
 #container { background-image:url('logo.svg'); background-repeat:no-repeat; background-size: 800px; margin-left:auto; margin-right:auto; width:800px; height:800px;}
-#content { position: relative; top: 320px; left: 210px; width: 410px; height:300px; }
+#content { position: relative; top: 315px; left: 210px; width: 410px; height:300px; }
 #content #title { font-size:180%; }
 #content .button { font-size: 130%; }
 #content { font-size: 10pt; }
-#content .text { margin: 20px 25px }
+#content .text { margin: 10px 25px }
+#content #recommend { margin: 0 25px }
 #content #copyright { text-align:center; width:100%;}
 </style>
 </head>
@@ -32,9 +39,21 @@ a:hover { text-decoration:underline; color:gray }
 </ul>
 <p class="text"><abbr title="Shift">⇧</abbr>Space 로 한글/영문 전환이 가능합니다.</p>
 <p class="text">구름 입력기는 2011년 9월 만들어진 따끈따끈한 맥 OS X용 한글 입력기입니다. 아직은 아주 간단한 한글 입력기만 갖고 있지만 곧 한자 입력과 환경설정을 추가할 것입니다.</p>
-<p id="copyright">Copyright 2011 Jeong YunWon. A few right reserved.</p>
+<div id="recommend">
 <!-- Place this tag where you want the +1 button to render -->
-<g:plusone size="medium" annotation="inline"></g:plusone>
+<g:plusone annotation="inline"></g:plusone>
+<!-- facebook like -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-href="http://gureum.org/" data-send="false" data-width="450" data-show-faces="false"></div>
+</div>
+<p id="copyright">Copyright 2011 Jeong YunWon. A few right reserved.</p>
 </div>
 </div>
 </body>

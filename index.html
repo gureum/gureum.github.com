@@ -4,6 +4,7 @@
 <head>
 <meta charset="utf-8" />
 <link href="favicon.ico" rel="shortcut icon" />
+<link href="https://plus.google.com/107293538860656253538/" rel="publisher" />
 <title>구름 입력기</title>
 <!-- Google +1 tags -->
 <meta itemprop="name" content="구름 입력기">
@@ -26,6 +27,8 @@ a:hover { text-decoration:underline; color:gray }
 #content #recommend { padding: 0 0 0 10px }
 #content ul { padding: 0 0 0 22px }
 #content #copyright { padding: 0 0 0 30px }
+#content #gplus { list-style: none outside none; margin 0; padding: 0 }
+#content #gplus li { width:50%; }
 </style>
 </head>
 <body>
@@ -41,16 +44,12 @@ a:hover { text-decoration:underline; color:gray }
 <p class="text">구름 입력기는 2011년 9월 만들어진 따끈따끈한 맥 OS X용 한글 입력기입니다. 아직은 아주 간단한 한글 입력기만 갖고 있지만 곧 한자 입력과 환경설정을 추가할 것입니다.</p>
 <div id="recommend">
 <!-- Place this tag where you want the +1 button to render -->
-<g:plusone annotation="inline"></g:plusone>
+<ul id="gplus">
+<li style="float:left"><g:plusone annotation="inline"></g:plusone></li>
+<li style="float:right; text-align:right"><a href="https://plus.google.com/107293538860656253538/?prsrc=3" style="text-decoration: none; color: #333;"><div style="display: inline-block;"><span style="float: left; font: bold 13px/16px arial,sans-serif; margin-right: 4px;">구름</span><span style="float: left; font: 13px/16px arial,sans-serif; margin-right: 11px;">on</span><div style="float: left;"><img src="https://ssl.gstatic.com/images/icons/gplus-16.png" width="16" height="16" style="border: 0;"/></div><div style="clear: both"></div></div></a></li>
+</ul>
 <!-- facebook like -->
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) {return;}
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/ko_KR/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 <div class="fb-like" data-href="http://gureum.org/" data-send="false" data-width="450" data-show-faces="false"></div>
 </div>
 <p id="copyright">Copyright 2011 Jeong YunWon. A few right reserved.</p>
@@ -67,4 +66,11 @@ a:hover { text-decoration:underline; color:gray }
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
   })();
 </script>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ko_KR/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </html>

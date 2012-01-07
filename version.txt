@@ -1,1 +1,1 @@
-1.2::https://github.com/downloads/gureum/gureum/GureumKIM1.2b.pkg
+1.3::

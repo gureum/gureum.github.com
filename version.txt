@@ -1,1 +1,1 @@
-1.4.1::http://www.gureum.org/downloads/GureumKIM-1.4.1.pkg::
+1.4.1::http://www.gureum.org/downloads/GureumKIM-1.4.1b.pkg::OS X 10.7 이하 지원

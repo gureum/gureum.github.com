@@ -1,1 +1,1 @@
-1.6::http://www.gureum.org/downloads/GureumKIM-1.6.pkg::네트워크 연결 실패 시 입력기를 실행할 수 없는 문제 수정. 세벌식 받침 결합을 허용하는 자판 추가.
+1.6.1::http://www.gureum.org/downloads/GureumKIM-1.6.1.pkg::네트워크 연결 실패 시 입력기를 실행할 수 없는 문제 수정. 세벌식 받침 결합을 허용하는 자판 추가.

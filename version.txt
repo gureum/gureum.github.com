@@ -1,1 +1,1 @@
-1.6.2::http://www.gureum.org/downloads/GureumKIM-1.6.2.pkg::OS X 10.9 (Mavericks) 대응.
+1.6.2::https://github.com/gureum/gureum/releases/download/GureumKIM-1.6.2/GureumKIM-1.6.2x.pkg::OS X 10.9 (Mavericks) 대응.

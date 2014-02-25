@@ -24,8 +24,8 @@ a:link, a:visited, a:active, body { color: #ddd }
 a:link, a:visited, a:active { text-decoration:none; }
 a:hover { text-decoration:underline; color: #bbb }
 body { background-color: #ddd }
-#container { background-image:url('logo.png'); background-repeat:no-repeat; background-size: 1000px; margin-left:auto; margin-right:auto; width:1000px; height:896px;}
-#content { position: relative; top: 315px; left: 210px; width: 410px; height:300px; font-size:10pt; font-family:"NanumGothic", "MalgunGothic", "UnDotum", "AppleGothic"; }
+#container { background-image:url('logo.png'); background-repeat:no-repeat; background-size: 1024px; margin-left:auto; margin-right:auto; width:1024px; height:896px;}
+#content { position: relative; top: 286px; left: 210px; width: 410px; height:300px; font-size:10pt; font-family:"NanumGothic", "MalgunGothic", "UnDotum", "AppleGothic"; }
 #content #title { font-size:180%; margin: 5px; }
 #content .button { font-size: 130%; }
 #content .text { padding: 0 0 0 10px }
@@ -38,7 +38,7 @@ body { background-color: #ddd }
 <body>
 <div id="container">
 <div id="content">
-<p><a id="title" href="http://ssi.gureum.io"><img src="logo.png" style="width:20px; height:20px;" /> 구름 입력기</a> [<a class="button" href="https://github.com/gureum/gureum/releases">내려받기</a>] [<a class="button" href="http://meok.gureum.org">버그 알리기</a>] [<a class="button" href="http://dan.gureum.org">도움말</a>]</p>
+<p><a id="title" href="http://ssi.gureum.io"><img src="logo.png" style="width:28px;" /> 구름 입력기</a> [<a class="button" href="https://github.com/gureum/gureum/releases">내려받기</a>] [<a class="button" href="http://meok.gureum.org">버그 알리기</a>] [<a class="button" href="http://dan.gureum.org">도움말</a>]</p>
 <ul>
 	<li><strong>편리하게</strong> <a href="http://baramim.blogspot.com/">바람</a>처럼 <a href="http://code.google.com/p/libhangul/">libhangul</a> 기반으로 모아치기를 지원합니다</li>
 	<li><strong>가볍게</strong> 최소한의 기능 구현으로 <a href="http://code.google.com/p/hanulim/">하늘</a>만큼 가볍게 돌아갑니다</li>
@@ -50,28 +50,27 @@ body { background-color: #ddd }
 <div id="recommend">
 <!-- Place this tag where you want the +1 button to render -->
 <ul id="gplus">
-<li style="float:left; width:80%"><g:plusone annotation="inline"></g:plusone></li>
-<li style="float:right; text-align:right; width:20%"><a href="https://plus.google.com/107293538860656253538/?prsrc=3" style="text-decoration: none; color: #ccc;"><div style="display: inline-block;"><span style="float: left; font: bold 13px/16px arial,sans-serif; margin-right: 4px;">구름</span><span style="float: left; font: 13px/16px arial,sans-serif; margin-right: 11px;">on</span><div style="float: left;"><img src="https://ssl.gstatic.com/images/icons/gplus-16.png" width="16" height="16" style="border: 0;"/></div><div style="clear: both"></div></div></a></li>
+<li style="float:left; width:80%"><g:plusone annotation="inline" href="http://gureum.org"></g:plusone></li>
+<li style="float:right; text-align:right; width:20%"><a href="//plus.google.com/+GureumOrg" style="text-decoration: none; color: #ccc;"><div style="display: inline-block;"><span style="float: left; font: bold 13px/16px arial,sans-serif; margin-right: 4px;">구름</span><span style="float: left; font: 13px/16px arial,sans-serif; margin-right: 11px;">on</span><div style="float: left;"><img src="https://ssl.gstatic.com/images/icons/gplus-16.png" width="16" height="16" style="border: 0;"/></div><div style="clear: both"></div></div></a></li>
 </ul>
 <!-- facebook like -->
 <div id="fb-root"></div>
 <script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '225468154219318',
-      status     : true,
-      xfbml      : true
-    });
-  };
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/all.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
-<div class="fb-like" data-href="http://gureum.org/" data-send="false" data-width="450" data-show-faces="false"></div>
+window.fbAsyncInit = function() {
+  FB.init({
+    appId : '289098844572519',
+    status : true,
+    xfbml  : true
+  });
+};
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ko_KR/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-href="http://gureum.org" data-send="false" data-width="450" data-show-faces="false" data-colorscheme="dark"></div>
 </div>
 <p id="copyright">Copyright 2011-2014 Jeong YunWon.</p>
 </div>
@@ -84,8 +83,7 @@ body { background-color: #ddd }
 </body>
 <!-- Place this render call where appropriate -->
 <script type="text/javascript">
-  window.___gcfg = {lang: 'ko'};
-
+  window.___gcfg = {lang: 'ko-KR'};
   (function() {
     var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
     po.src = 'https://apis.google.com/js/plusone.js';

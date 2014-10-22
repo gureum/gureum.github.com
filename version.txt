@@ -1,1 +1,1 @@
-1.8.5::https://github.com/gureum/gureum/releases/download/GureumKIM-1.8.5/GureumKIM-1.8.5.pkg::요세미티 대응 및 충돌 기능 제거. 자세한 업데이트 내용은 웹사이트를 참고하세요.
+1.8.6::https://github.com/gureum/gureum/releases/download/GureumKIM-1.8.6/GureumKIM-1.8.6.pkg::요세미티 대응 / 충돌 기능 제거 / 버그 수정. 자세한 업데이트 내용은 웹사이트를 참고하세요.

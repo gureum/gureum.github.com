@@ -1,1 +1,1 @@
-1.9.0::https://github.com/gureum/gureum/releases/download/GureumKIM-1.9.0/GureumKIM-1.9.0c.pkg::High Sierra 대응. 일부 기능 (임시) 제거.
+1.9.0::https://github.com/gureum/gureum/releases/download/GureumKIM-1.9.0/GureumKIM-1.9.0c.pkg::High Sierra 대응. 내장 한/영 단축키 등 일부 기능 (임시) 제거.

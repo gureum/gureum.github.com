@@ -1,1 +1,1 @@
-1.10.0-pre9::https://github.com/gureum/gureum/releases/tag/GureumKIM-1.10.0-pre9::1.10.0의 최신 베타 릴리즈
+1.10.0-rc2::https://github.com/gureum/gureum/releases/tag/GureumKIM-1.10.0-rc2::1.10.0의 최신 미리보기 릴리즈

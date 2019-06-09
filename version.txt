@@ -1,1 +1,1 @@
-1.8.9c::https://github.com/gureum/gureum/releases/download/GureumKIM-1.8.9/GureumKIM-1.8.9c.pkg::High Sierra 업데이트에서 여러 문제가 발견되어 이전 버전으로 되돌리는 자동업데이트입니다. 현재 사용하시는 버전에 이상이 없으면 이 알림을 무시하고 그대로 사용하셔도 됩니다.
+1.10.0::https://github.com/gureum/gureum/releases/tag/1.10.0::Mojave 업데이트 등. 자세한 내용은 릴리즈 노트를 참고해 주세요

@@ -105,7 +105,7 @@ article h1 { font-size: 150%; font-weight: bold; }
 <article id="install">
 <span class="totop"><a href="#header">⇧</a></span>
 <h1>설치하기</h1>
-<p><a href="http://bi.gureum.org/">내려받기 페이지</a><span id="download-link"></span>에서 최신 버전을 받을 수 있습니다. 처음 설치해 보거나 설치를 했는데 이용에 문제가 있다면 <a href="https://github.com/gureum/gureum/wiki/Help-Install">설치하기 도움말</a>을 확인해 보세요.</p>
+<p><span id="download-link"></span><a href="http://bi.gureum.org/">내려받기 페이지</a>에서 안정버전이나 실험버전 가운데 하나를 골라 내려받을 수 있습니다. 처음 설치해 보거나 설치를 했는데 이용에 문제가 있다면 <a href="https://github.com/gureum/gureum/wiki/Help-Install">설치하기 도움말</a>을 확인해 보세요.</p>
 <p>※ 설치했는데 어떻게 쓰는 지 모르겠다면, <a href="https://github.com/gureum/gureum/wiki/Help-Install">설치하기 도움말</a>을 보고 설정을 따라해 주세요. 설정 단계를 거쳐야만 쓰기 시작할 수 있습니다!</p>
 </article>
 
@@ -210,6 +210,6 @@ Copyright 2011-2019 Jeong YunWon.
   var txt = req.responseText;
   var link = txt.split("::")[1];
   var span = document.querySelector('#download-link');
-  span.innerHTML = '나 <a href="' + link + '">최신 버전 내려받기 링크</a>';
+  span.innerHTML = '<a href="' + link + '">최신 버전 내려받기 링크</a>에서 바로 받거나 ';
 </script>
 </html>

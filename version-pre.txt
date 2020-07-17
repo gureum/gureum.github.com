@@ -1,1 +1,0 @@
-1.10.0::https://github.com/gureum/gureum/releases/tag/1.10.0::1.10.0 정식 릴리즈

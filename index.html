@@ -205,10 +205,10 @@ Copyright 2011-2019 Jeong YunWon.
 </script>
 <script type="text/javascript">
   var req = new XMLHttpRequest();
-  req.open("GET", "version.txt", false);
+  req.open("GET", "version.json", false);
   req.send(null);
-  var txt = req.responseText;
-  var link = txt.split("::")[1];
+  var txt = JSON.parse(req.responseText);
+  var link = txt.url;
   var span = document.querySelector('#download-link');
   span.innerHTML = '<a href="' + link + '">최신 버전 내려받기 링크</a>에서 바로 받거나 ';
 </script>
